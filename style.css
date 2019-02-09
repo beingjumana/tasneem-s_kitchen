@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans'); */
+@import url('https://fonts.googleapis.com/css?family=Amaranth');
+
+/* body{
+    padding: 0;
+    margin: 0;
+   
+}
+
+h1{
+     font-family: 'Great Vibes', cursive;
+    font-size: 60px;
+    
+} */
+/* .container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+} */
+
+body {
+    background: #333;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-top: 5em; */
+    width: 70%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* DEMO-SPECIFIC STYLES */
+  .typewriter h1 {
+    color: rgb(250, 4, 4);
+    /* border-color: yellow; */
+    text-shadow: 0 0 5px #ffc40f;
+    filter:contrast(1);
+    font-family: 'Great Vibes', cursive;
+    /* font-size: 60px; */
+    font-size:8vw;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .10em; /* Adjust as needed */
+    
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end ;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
+
+  table{
+    width: 100%;
+    
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Amaranth', sans-serif;
+
+  }
+  table th{
+    font-size:4vw;
+    color:#fe7418;
+  }
+  /* table th td{
+    font-size:2.5vw;
+    color:orange;
+  } */
+  td{
+    font-size:3vw;
+    color:#ffff00;
+  }
+  th .sub{
+    
+  }
+  hr{
+    height: 1px;
+    color: red;
+    background-color: red;
+    border: none;
+  }
+  
+  .menu{
+    display: none;
+    font-family: 'Amaranth', sans-serif;
+  }
+
+  .note{
+    font-size:3vw;
+    color:#ffff00;
+    text-align: center;
+  }
+  a{
+  text-decoration: none;
+  }
+  a:link{
+    color: #f7ce2b;
+  }
+  .anote{
+    color:#fe7418;
+
+  }
+  
