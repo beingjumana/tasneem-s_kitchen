@@ -7,7 +7,6 @@
     margin: 0;
    
 }
-
 h1{
      font-family: 'Great Vibes', cursive;
     font-size: 60px;
@@ -17,7 +16,6 @@ h1{
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-
 } */
 
 body {
@@ -115,7 +113,15 @@ body {
     color:#fe7418;
 
   }
-img{
-   max-width:100%;
-    height:auto;
+
+.wapp{
+  margin: 25px;
 }
+.img-div {
+  
+   height:auto;
+   width:100%;
+  }
+img {
+   max-width:100%;
+   }
