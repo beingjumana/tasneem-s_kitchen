@@ -1,22 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes');
-/* @import url('https://fonts.googleapis.com/css?family=Open+Sans'); */
 @import url('https://fonts.googleapis.com/css?family=Amaranth');
-
-/* body{
-    padding: 0;
-    margin: 0;
-   
-}
-h1{
-     font-family: 'Great Vibes', cursive;
-    font-size: 60px;
-    
-} */
-/* .container{
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-} */
 
 body {
     background: #333;
@@ -28,14 +11,12 @@ body {
     justify-content: center;
   }
   
-  /* DEMO-SPECIFIC STYLES */
   .typewriter h1 {
     color: rgb(250, 4, 4);
     /* border-color: yellow; */
     text-shadow: 0 0 5px #ffc40f;
     filter:contrast(1);
     font-family: 'Great Vibes', cursive;
-    /* font-size: 60px; */
     font-size:8vw;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid orange; /* The typwriter cursor */
@@ -75,10 +56,7 @@ body {
     font-size:4vw;
     color:#fe7418;
   }
-  /* table th td{
-    font-size:2.5vw;
-    color:orange;
-  } */
+  
   td{
     font-size:3vw;
     color:#ffff00;
@@ -111,15 +89,13 @@ body {
   }
   .anote{
     color:#fe7418;
-
-  }
+}
 
 .wapp{
   margin: 25px;
 }
 .img-div {
-  
-   height:auto;
+  height:auto;
    width:100%;
   }
 img {
