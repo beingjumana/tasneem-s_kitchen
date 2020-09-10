@@ -35,7 +35,7 @@ body {
     to { width: 100% }
   }
   
-  /* The typewriter cursor effect */
+  /*typewriter cursor effect */
   @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: orange }
@@ -43,15 +43,9 @@ body {
 
   table{
     width: 100%;
-    
-    /* display: flex;
-    justify-content: center; */
-    /* align-items: center; */
     text-align: center;
-    /* font-family: 'Open Sans', sans-serif; */
     font-family: 'Amaranth', sans-serif;
-
-  }
+   }
   table th{
     font-size:4vw;
     color:#fe7418;
